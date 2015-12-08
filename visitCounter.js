@@ -13,7 +13,7 @@ var storedVisits = (function(){
   var d = new Date();
   var currentYear = d.getFullYear();
   var currentMonth = d.getMonth();
-  var currentWeek = getWeekNumber(d)[1];
+  var currentWeek = getWeekNumber(d);
   
   // default visits info
   var siteVisits = {
